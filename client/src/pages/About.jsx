@@ -20,7 +20,7 @@ const About = () => {
             {/* Profile Image */}
             <div className="md:w-1/3 bg-gray-100 flex justify-center p-8">
               <img 
-                src="https://scontent.fbhr4-1.fna.fbcdn.net/v/t39.30808-1/518407831_1796907967878325_547114330131061050_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=107&ccb=1-7&_nc_sid=1d2534&_nc_ohc=rI_k0f34eiIQ7kNvwE1zLE5&_nc_oc=AdlFYb8wcGmEaHCI6bGKz9k_9cHl8t38y6QTfr-aSSfLAiyBBIrffnvm0X1N04UwZgwyXbi4KV3_OV2uslrGqnw8&_nc_zt=24&_nc_ht=scontent.fbhr4-1.fna&_nc_gid=8MCXPV1El-bqcc72Q0liPw&oh=00_AfX5eL7NExz85mrD9XCQqvmQEfvm8eilywnGSG412T7UmQ&oe=68994BE3" 
+                src="/razz.jpg" 
                 alt="Raj Shrestha - Full Stack Developer based in Chitwan, Nepal"
                 className="h-64 w-64 object-cover rounded-full border-4 border-white shadow-md"
               />
