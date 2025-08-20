@@ -1,7 +1,5 @@
 import React from 'react';
 import { FiGithub, FiMapPin, FiMail, FiCode,FiPhone } from 'react-icons/fi';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
 const About = () => {
   return (

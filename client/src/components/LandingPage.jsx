@@ -4,7 +4,6 @@ import axios from 'axios';
 import Footer from './Footer';
 import Login from './Login';
 import Signup from './Signup';
-import About from '../pages/About';
 import { FiBookOpen, FiSearch, FiStar } from 'react-icons/fi';
 
 const LandingPage = () => {
@@ -275,12 +274,27 @@ const LandingPage = () => {
                     </section>
                 </div>
             </main>
-            <div className='bg-gray-50'>
-                {user ? (
-                <About />
-            ) : (
-                <p className="mt-2 text-smtext-gray-500"></p>
-            )}
+            {/* About Project */}
+            <div className="bg-white rounded-xl shadow-lg p-8">
+                <h2 className="text-2xl font-bold text-gray-800 mb-4">About This Project</h2>
+                <div className="space-y-4 text-gray-600">
+                    <p>
+                        This e-book website was built as a showcase of modern web development techniques.
+                        It demonstrates clean React architecture, responsive design principles, and efficient state management.
+                    </p>
+                    <p>
+                        Key features include:
+                    </p>
+                    <ul className="list-disc pl-5 space-y-2">
+                        <li>Responsive design that works on all devices</li>
+                        <li>Advanced search and filtering capabilities</li>
+                        <li>Read-on-the-go functionality with offline support</li>
+                        <li>Performance optimized for fast page loads</li>
+                    </ul>
+                    <p>
+                        The project utilizes modern libraries and frameworks to provide an exceptional user experience.
+                    </p>
+                </div>
             </div>
             <Footer />
 
